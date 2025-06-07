@@ -1,2 +1,23 @@
 hi guys this is only for testing purpose 
 i am dng modification to the test file 
+mkdir - this is used for creating an empty directory
+ls - listing 
+      under this there are many option can be used 
+               ls         # List files and directories
+               ls -l      # Long listing format (detailed info)
+               ls -a      # Show hidden files (files starting with `.`)
+               ls -lh     # Human-readable format (sizes in KB, MB, etc.)
+               ls -r      # Reverse order listing
+               ls -t      # Sort by modification time
+               ls -i      # Show inode numbers (file metadata ID)
+
+The cat command is used to view and manipulate file contents.
+       cat file.txt  # Display contents of a file
+       cat file1 file2  # Concatenate multiple files
+       cat *  # Display contents of all files in a directory
+       cat -n file_name  # Show line numbers
+
+The cp command copies files or directories from one location to another.
+       cp devops.txt DevOps/  # Copy file to a directory
+       cp -r Python DevOps/  # Copy an entire directory recursively   
+       cp *.java destination_dir/    
